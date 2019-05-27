@@ -147,7 +147,7 @@ client.on('message', message => {
 
  .setImage("https://c.top4top.net/p_108825enp1.png")
 
-  if (command == "mute") {
+  if (command == "^mute") {
 
   if(!muteRole) return message.guild.createRole({ name: "Muted", permissions: [] });
 
